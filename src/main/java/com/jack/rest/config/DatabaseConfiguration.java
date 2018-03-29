@@ -25,7 +25,7 @@ public class DatabaseConfiguration {
         config.setJdbcUrl("jdbc:mysql://localhost:3306/community");
         config.setUsername( "root");
         config.setPassword("password");
-//        config.setMaximumPoolSize(Integer.valueOf(Global.getConfigCfg("cfg:jdbc.maximumPoolSize", "10")));
+//        config.setMaximumPoolSize(Integer.valueOf(Global.getConfigCfg("cfg:jdbc.maximumPoolSize", "10")));t
 //        config.addDataSourceProperty("cachePrepStmts", Global.getConfigCfg("cfg:jdbc.cachePrepStmts", "true"));
 //        config.addDataSourceProperty("prepStmtCacheSize", Global.getConfigCfg("cfg:jdbc.prepStmtCacheSize", "250"));
 //        config.addDataSourceProperty("prepStmtCacheSqlLimit", Global.getConfigCfg("cfg:jdbc.prepStmtCacheSqlLimit", "2048"));
